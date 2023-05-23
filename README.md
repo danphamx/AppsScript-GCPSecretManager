@@ -10,10 +10,13 @@ This code is used to retrieve the value of a secret from Google Cloud Secret Man
 
 Constants:
 
-VERSION: The version of the secret to retrieve. In this case, it is set to "latest" to retrieve the latest version of the secret.
-PROJECT_NUM: The Google Cloud Project Number. It represents the project to which the secrets belong. You need to replace it with your actual project number.
-SECRET: The name of the secret to retrieve. In this case, it is set to "Demo_Test".
-getSecretValue() function:
+- VERSION: The version of the secret to retrieve. In this case, it is set to "latest" to retrieve the latest version of the secret.
+
+- PROJECT_NUM: The Google Cloud Project Number. It represents the project to which the secrets belong. You need to replace it with your actual project number.
+
+- SECRET: The name of the secret to retrieve. In this case, it is set to "Demo_Test".
+
+`getSecretValue()` function:
 
 1. This function is responsible for retrieving the value of the secret.
 2. It starts by declaring several variables: endpoint, token, response, responseData, base64Value, and byteArray.
